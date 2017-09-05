@@ -1,0 +1,19 @@
+Designer:KingQueenWong
+
+Date:2016-11-25
+1.replace 1206 footprint shunt with 2510 footprint shunt;
+2.replace stm32f446ret6 with stm32f405rgt6;
+3.replace jst1.0 smd header with jst1.0 smd header;
+4.add dac testpoint;
+5.add status led;
+6.add clock frequency led testpoint;
+7.add usb port;
+
+Date:2017-01-12
+1.add hall port;
+2.add ws2812b led;
+3.TIM2-->WS2812;
+4.TIM3-->ENCODER;
+5.TIM4-->HALL;
+6.TIM1-->MOTOR;
+7.add a user button;
